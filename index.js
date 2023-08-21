@@ -61,7 +61,7 @@ const VIDEOS = [
   'Ballin.mp4',
   'iphone.mp4',
   'halflife.mp4',
-  'Psypiosenka.mp4'
+  'wiesia.mp4'
 ]
 
 const FILE_DOWNLOADS = [
