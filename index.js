@@ -54,22 +54,22 @@ const SEARCHES = [
   'ptoszek',
   'ptak',
   'kanarek',
-  'jaczup'
+  'miska'
 ]
 
 const VIDEOS = [
-  'jaczup.mp4',
-  'duck.mp4',
-  'rickroll.mp4',
+  'Ballin.mp4',
+  'iphone.mp4',
+  'halflife.mp4',
   'golomb.mp4'
 ]
 
 const FILE_DOWNLOADS = [
-  'ptok.jpg',
-  'jaczup.jpg',
-  'jaczupme.jpg',
-  'ptoszek.jpg',
-  'ptakwspodniach.jpg',
+  'misiunia.jpg',
+  'miska1.jpg',
+  'miska2.jpg',
+  'miska3.jpg',
+  'miska4.jpg',
   'kichajacyptoszek.jpg',
   'lubieptoszki.png'
 ]
