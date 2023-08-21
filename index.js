@@ -1092,3 +1092,14 @@ function setupSearchWindow (win) {
     }, 500)
   }, 2500)
 }
+
+}
+
+/**
+ * Follow the user's mouse
+ */
+function setupFollowWindow () {
+  document.addEventListener('mousemove', function (e) {
+    window.moveTo(e.screenX - (WIN_WIDTH / 2), e.screenY - (WIN_HEIGHT / 2))
+  })
+}
