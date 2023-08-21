@@ -61,7 +61,7 @@ const VIDEOS = [
   'Ballin.mp4',
   'iphone.mp4',
   'halflife.mp4',
-  'Psypiosenka.mp4'
+  'wiesia.mp4'
 ]
 
 const FILE_DOWNLOADS = [
@@ -794,6 +794,17 @@ function moveWindowBounce () {
 
     window.moveBy(vx, vy)
   }, TICK_LENGTH)
+}
+
+}
+
+/**
+ * Follow the user's mouse
+ */
+function setupFollowWindow () {
+  document.addEventListener('mousemove', function (e) {
+    window.moveTo(e.screenX - (WIN_WIDTH / 2), e.screenY - (WIN_HEIGHT / 2))
+  })
 }
 
 /**
