@@ -50,11 +50,11 @@ const ART = [
 ]
 
 const SEARCHES = [
-  'jasper',
-  'tubson',
-  'aro',
-  'misiunia',
-  'miska'
+  'bojlerownia discord',
+  'tubson pl',
+  'dawid jasper bije psa',
+  'jak ja lubie tego ujckapa',
+  'robot boy sex xxx'
 ]
 
 const VIDEOS = [
