@@ -50,10 +50,10 @@ const ART = [
 ]
 
 const SEARCHES = [
-  'jshop',
-  'ptoszek',
-  'ptak',
-  'kanarek',
+  'jasper',
+  'tubson',
+  'aro',
+  'misiunia',
   'miska'
 ]
 
@@ -70,13 +70,13 @@ const FILE_DOWNLOADS = [
   'miska2.jpg',
   'miska3.jpg',
   'miska4.jpg',
-  'kichajacyptoszek.jpg',
-  'lubieptoszki.png'
+  'strarzak.jpg',
+  'misiunia.png'
 ]
 
 const PHRASES = [
-  'hello my name is ptoszek, lol',
-  'birds are funny lalalalalalalallalala',
+  'hello my name is miska, lol',
+  'miska are funny lalalalalalalallalala',
   'wgl co u cb bo u mn dbr',
   'knuuurrr eksplozja',
   'hee haw hee haw hee haw hee haw hee haw hee haw hee haw hee haw hee haw hee haw hee haw',
@@ -669,8 +669,8 @@ function requestWebauthnAttestation () {
         // User:
         user: {
           id: new Uint8Array(16),
-          name: 'lolica@jaczup.me',
-          displayName: 'Ptoszek Jaczupa'
+          name: 'aro@tubson.pl',
+          displayName: 'Arek Wojcik'
         },
 
         pubKeyCredParams: [{
